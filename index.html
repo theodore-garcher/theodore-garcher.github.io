@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Théodore Garcher</title>
+    <link rel="icon" href="images/favicon.png">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="nav_logo animated animatedFadeInDown fadeInDown">
+            <span class="logo_sous_lignage"><a href="index.html">theodore garcher</a></span>
+        </div>
+
+        <div class="nav_items">
+            <ul>
+                <li class="animated animatedFadeInDown fadeInDown" style="animation-delay: 100ms;"><a href="#a-propos" class="nav_hover item1">À propos</a></li>
+                <li class="animated animatedFadeInDown fadeInDown" style="animation-delay: 200ms;"><a href="#projets" class="nav_hover item2">Projets</a></li>
+                <li class="animated animatedFadeInDown fadeInDown" style="animation-delay: 300ms;"><a href="#contact" class="nav_hover item3">Contact</a></li>
+                <li class="animated animatedFadeInDown fadeInDown" style="animation-delay: 400ms;"><a href="docs/cv_theodore_garcher.pdf" class="bouton_cv">Mon CV</a></li>
+            </ul>
+        </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu_burger">
+                        <li><a href="#a-propos" class="nav_hover item1">À propos</a></li>
+                        <li><a href="#projets" class="nav_hover item2">Projets</a></li>
+                        <li><a href="#contact" class="nav_hover item3">Contact</a></li>
+                        <li><a href="docs/cv_theodore_garcher.pdf" class="bouton_cv">Mon CV</a></li>
+                </ul>
+            </div>
+    </nav>
+</header>
+<div class="presentation">
+    <h1 class="animated animatedFadeInUp fadeInUp" style="animation-delay: 200ms;">Moi, c'est Théodore.</h1>
+    <div class="container animated animatedFadeInUp fadeInUp" style="animation-delay: 300ms;">
+        <p>Je suis un <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+    <p id="sous_titre" class="animated animatedFadeInUp fadeInUp" style="animation-delay: 400ms;">J'aime réaliser des projets complexes, et résoudre des problèmes.</p>
+</div>
+<div id="a-propos"></div>
+<div class="moi">
+    <h2 class="animated animatedFadeInUp fadeInUp" style="animation-delay: 500ms;">
+        à propos de moi
+    </h2>
+    <div class="flexmoi">
+        <div class="moi_photo animated animatedFadeInUp fadeInUp" style="animation-delay: 580ms;">
+            <img src="images/photo.jpg" alt="photographie de théodore garcher">
+        </div>
+        <div class="moi_infos">
+            <p class="animated animatedFadeInUp fadeInUp" style="animation-delay: 660ms;">
+                Je suis un développeur informatique en ce moment étudiant à l'université Gustave Eiffel, dans le cursus DUT informatique.
+            </p>
+            <p class="animated animatedFadeInUp fadeInUp" style="animation-delay: 740ms;">
+                Je suis en recherche d'alternance pour l'année 2021 - 2022.
+            </p>
+            <p class="gras animated animatedFadeInUp fadeInUp" style="animation-delay: 820ms;">
+                Voici quelques technologies avec lesquelles j'ai travaillé récemment :
+            </p>
+            <table class="animated animatedFadeInUp fadeInUp" style="animation-delay: 900ms;">
+                <tr>
+                    <td>- Python</td>
+                    <td>- HTML</td>
+                </tr>
+                <tr>
+                    <td>- SQL</td>
+                    <td> - CSS</td>
+                </tr>
+                <tr>
+                    <td>- Bash</td>
+                    <td>- Javascript</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="projets"></div>
+<div class="meta_container_projet animated animatedFadeInUp fadeInUp" style="animation-delay: 1000ms;">
+    <h2 class="titre titre_projets">MES PROJETS</h2>
+    <div class="projets_container">
+        <div class="projet">
+            <div class="projet_image">
+                <img src="images/magicmaze.png" alt="logo du jeu magic maze">
+            </div>
+            <div class="projet_infos">
+                <h3>Jeu (vidéo) de société : Magic Maze</h3>
+                <div class="technos">
+                    <span>Python</span>
+                    <span>Tkinter</span>
+                </div>
+                <div class="presentation_projet">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+            </div>
+            <div class="projet_liens">
+                <a href="">
+                    <span>GITHUB</span>
+                </a>
+                <a href="">DÉMO</a>
+            </div>
+        </div>
+        <div class="projet">
+            <div class="projet_image">
+                <img src="images/mcd.png" alt="logo du jeu magic maze">
+            </div>
+            <div class="projet_infos">
+                <h3>Base de données SQL</h3>
+                <div class="technos">
+                    <span>SQL</span>
+                    <span>MySQL</span>
+                    <span>phpMyAdmin</span>
+                    <span>Looping</span>
+                </div>
+                <div class="presentation_projet">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+            </div>
+            <div class="projet_liens">
+                <a href="">
+                    <span>GITHUB</span>
+                </a>
+                <a href="">DÉMO</a>
+            </div>
+        </div>
+        <div class="projet">
+            <div class="projet_image">
+                <img src="images/magicmaze.png" alt="logo du jeu magic maze">
+            </div>
+            <div class="projet_infos">
+                <h3>Jeu vidéo de société : Magic Maze</h3>
+                <div class="technos">
+                    <span>Python</span>
+                    <span>Tkinter</span>
+                </div>
+                <div class="presentation_projet">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+            </div>
+            <div class="projet_liens">
+                <a href="">
+                    <span>GITHUB</span>
+                </a>
+                <a href="">DÉMO</a>
+            </div>
+        </div>
+        <div class="projet">
+            <div class="projet_image">
+                <img src="images/magicmaze.png" alt="logo du jeu magic maze">
+            </div>
+            <div class="projet_infos">
+                <h3>Jeu vidéo de société : Magic Maze</h3>
+                <div class="technos">
+                    <span>Python</span>
+                    <span>Tkinter</span>
+                </div>
+                <div class="presentation_projet">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+            </div>
+            <div class="projet_liens">
+                <a href="">
+                    <span>GITHUB</span>
+                </a>
+                <a href="">DÉMO</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="animated animatedFadeInUp fadeInUp" style="animation-delay: 1000ms;">
+<div id="contact"></div>
+<h2 class=" titre titre_contact">CONTACT</h2>
+<div class="reseaux">
+    <a href="mailto:theodore.garcher@gmail.com" class="mail">theodore.garcher@gmail.com</a>
+    <a href="https://www.linkedin.com/in/th%C3%A9odore-garcher-963253144/" class="linkedin">linkedin</a>
+    <a href="https://github.com/Theodore-Garcher" class="github">github</a>
+</div>
+<div id="copyright">
+    ~ Site créé avec soin par Théodore ~
+</div>
+</div>
+<script src="js/navbar.js"></script>
+<script src="js/typewriter.js"></script>
+</body>
+</html>
