@@ -406,12 +406,24 @@ h1 {
 }
 
 #copyright {
-    text-align: center;
-    font-weight: 600;
-    font-size: 0.9rem;
-    color: #4b4b4b;
+    display: flex;
+    justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+#copyright a {
+    color: #4b4b4b;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease;
+}
+
+#copyright a:hover {
+    color: #888;
 }
 
 @keyframes fadeInUp {
