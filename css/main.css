@@ -287,11 +287,14 @@ h1 {
 }
 
 .projet_image img {
+    display: block;
     height: 100%;
     max-height: 100%;
     width: 100%;
     max-width: 90%;
     object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .projet_infos {
@@ -302,6 +305,7 @@ h1 {
 .projet_infos h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
+    line-height: 1.7rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -315,7 +319,7 @@ h1 {
 }
 
 .technos span {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     color: #6f6f6f;
 }
 
